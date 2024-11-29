@@ -4,7 +4,7 @@ import { MapContainer as LeafletMap, TileLayer, GeoJSON, Marker, Popup } from 'r
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import './MapContainer.css';
-import stationsData from '../../public/stations.geojson';
+import stationsData from './stations.geojson';
 
 // Fix Leaflet's default icon issue with Webpack
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
